@@ -1,0 +1,44 @@
+// Place your key bindings in this file to override the defaults
+[
+// NAVIGATION
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.files.action.focusFilesExplorer",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "workbench.action.terminal.focus",
+    "when": "filesExplorerFocus"
+  },
+ {
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+ },
+ {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+ }
+]
